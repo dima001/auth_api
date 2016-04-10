@@ -4,7 +4,7 @@ import hashlib
 def save_profile(strategy, backend, details, response, user=None, *args, **kwargs):
 
     """
-    pipeline that save information from google and creat token.
+    pipeline that save information from google and create token.
     """
     if backend.name == 'google-oauth2':
         m_token = hashlib.md5()
